@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+        printf("enter the value of triagle:");
+            scanf("%d %d %d",&a,&b,&c);
+        if((a==b && b==c)) {
+                printf("that tringle is equitral..!");
+        } 
+        else {
+                printf("that tringle is not eqitral");
+        }  
+        return 0;
+}
